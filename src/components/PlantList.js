@@ -1,13 +1,16 @@
 import React from "react";
 import PlantCard from "./PlantCard";
 
-function PlantList({ plants, setPlants }) {
+function PlantList({ plants, setPlants, searchInput }) {
 
+const filteredPlants = plants.filter(plant => {
+  return plant.name.toLowerCase().includes(searchInput.toLowerCase())
+})
 
 
   return (
     <ul className="cards">
-      {plants.map(plant => (
+      {filteredPlants.map(plant => (
         <PlantCard 
         key = { plant.id }
         name = { plant.name }
