@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "plant on black",
+      "image": "./images/plantOnBlack-nagy-arnold-unsplash.jpg",
+      "price": "199.99",
+      "id": 8
+    },
+    {
+      "name": "another plant on black",
+      "image": "./images/plantOnBlack-nagy-arnold-unsplash.jpg",
+      "price": 2099,
+      "id": 9
     }
   ]
 }
